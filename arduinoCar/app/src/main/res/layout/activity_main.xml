@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+    >
+<EditText android:id="@+id/transmit_text"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:inputType=""/>
+
+<Button
+    android:id="@+id/button_transmit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enviar" />
+
+<Button
+    android:id="@+id/btn_adelante"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="99dp"
+    android:layout_height="70dp"
+    android:layout_gravity="center"
+    android:text="adelante" />
+
+<Button
+    android:id="@+id/btn_atras"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="99dp"
+    android:layout_height="70dp"
+    android:layout_gravity="center"
+    android:text="Atras" />
+
+<Button
+    android:id="@+id/btn_izquiera"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="99dp"
+    android:layout_height="70dp"
+    android:layout_gravity="center"
+    android:text="Izquierda" />
+
+<Button
+    android:id="@+id/btn_derecha"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="99dp"
+    android:layout_height="70dp"
+    android:layout_gravity="center"
+    android:text="Derecha" />
+
+<Button
+    android:id="@+id/btn_stop"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="99dp"
+    android:layout_height="70dp"
+    android:layout_gravity="center"
+    android:text="Stop" />
+
+<TextView
+    android:id="@+id/recieved_text"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+

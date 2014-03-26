@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<EditText android:id="@+id/transmit_text" 
+          android:layout_width="fill_parent" 
+          android:layout_height="wrap_content"
+          android:inputType=""/>
+
+<Button
+    android:id="@+id/button_transmit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enviar" />
+
+<Button
+    android:id="@+id/btn_acelerador"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="99dp"
+    android:layout_height="40dp"
+    android:layout_gravity="center"
+    android:text="Acelerador" />
+
+<SeekBar
+    android:id="@+id/sl_acelerador"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:max="180" />
+
+<Button
+    android:id="@+id/btn_aleron"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="99dp"
+    android:layout_height="40dp"
+    android:layout_gravity="center"
+    android:text="Aleron" />
+
+<SeekBar
+    android:id="@+id/sl_aleron"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:max="180" />
+
+<Button
+    android:id="@+id/btn_elevador"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="99dp"
+    android:layout_height="40dp"
+    android:layout_gravity="center"
+    android:text="Elevador" />
+
+<SeekBar
+    android:id="@+id/sl_elevador"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:focusableInTouchMode="false"
+    android:indeterminate="false"
+    android:max="180" />
+
+<Button
+    android:id="@+id/btn_timon"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="99dp"
+    android:layout_height="40dp"
+    android:layout_gravity="center"
+    android:text="Timon" />
+
+<SeekBar
+    android:id="@+id/sl_timon"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:max="180" />
+
+<TextView
+    android:id="@+id/recieved_text"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="center_horizontal" />
+
+<Button
+    android:id="@+id/btn_armar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Armar" />
+
+<Button
+    android:id="@+id/btn_desarmar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Desarmar" />
+
+
+</LinearLayout>
+
